@@ -1,7 +1,7 @@
 /*variáveis globais*/
 :root {
   --cor-fundo: #01080E;
-  --cor-principal: #0B0D20;
+  --cor-principal: #0B0D20 ;
   --cor-secundaria: #212333;
   --cor-destaque: #2BDEFD;
   --cor-texto: #D7F9FF;
@@ -17,11 +17,15 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 16px;
+
 }
 
-.caixa-principal {
+.caixa-principal{
   background-color: var(--cor-principal);
   width: 90%;
   text-align: center;
   padding: 20px;
+}
+h1{
+ color: var(--cor-destaque);
 }
