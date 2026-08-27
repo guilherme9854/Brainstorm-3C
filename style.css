@@ -1,3 +1,4 @@
+/*variáveis globais*/
 :root {
   --cor-fundo: #01080E;
   --cor-principal: #0B0D20;
@@ -5,6 +6,7 @@
   --cor-destaque: #2BDEFD;
   --cor-texto: #D7F9FF;
 }
+
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
@@ -12,7 +14,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
 }
+
 .caixa-principal {
   background-color: var(--cor-principal);
   width: 90%;
